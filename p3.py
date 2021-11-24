@@ -2,6 +2,10 @@
 
 print("Welcome to time convertor calculator")
 minutes=int(input('How many minutes do you want to be converted to second? '))
-seconds=int(minutes)*60
-print(f'Your {int(minutes)} minutes is equal to {int(seconds)} seconds')
+
+def func1(minutes):
+    return minutes*60
+func1(minutes)
+
+print(f'Your minutes is equal to {func1(minutes)} seconds')
 print('Thank you')
