@@ -12,15 +12,14 @@
 #fizz_buzz(4) ➞ "4"
 
 num = int(input("What is your number?  "))
-
 def module ():
     if num %15 ==0:
-        print("Fizz Buzz")
+        print("FizzBuzz")
     elif num %5 ==0:
         print("Buzz")
     elif num %3==0:
         print("Fizz")
     else:
-        print("The number is not divisible by 3 or 5, nor 15")
+        print("The number is not divisible by 3 or 5 ")
 
 module ()
